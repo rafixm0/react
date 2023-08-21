@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem /> Debe de hacer match con el snapshoot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="GifExpertApp"
+      src="https://rafix.org"
+    />
+  </div>
+</div>
+`;
