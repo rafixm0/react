@@ -7,8 +7,11 @@ exports[`Pruebas en <GifItem /> Debe de hacer match con el snapshoot 1`] = `
   >
     <img
       alt="GifExpertApp"
-      src="https://rafix.org"
+      src="https://rafix.org/goku.jpg"
     />
+    <p>
+      GifExpertApp
+    </p>
   </div>
 </div>
 `;
