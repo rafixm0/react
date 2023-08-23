@@ -17,15 +17,13 @@ export const Layout = () => {
             <h1>BreakingBad Quotes</h1>
             <hr />
 
-            { Quote({ author, quote }) }
+            {/* { Quote({ author, quote }) } */}
 
-            {/* {
+            {
                 ( isLoading ) ? 
-                    LoadingQuote()
-                : Quote({ author, quote }
-                )
-                
-            } */}
+                    <LoadingQuote/>
+                : <Quote author={author} quote={quote} />
+            }
 
             <button 
                 className="btn btn-primary"
