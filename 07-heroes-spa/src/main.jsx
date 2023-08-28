@@ -4,11 +4,12 @@ import { BrowserRouter } from 'react-router-dom'
 
 import './styles.css'
 import { AppRouter } from './router/AppRouter';
+import { HeroesApp } from './HeroesApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <AppRouter />
+      <HeroesApp />
     </BrowserRouter>
   </React.StrictMode>
 );
